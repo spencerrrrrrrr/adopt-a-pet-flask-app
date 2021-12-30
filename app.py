@@ -20,6 +20,6 @@ def animals(pet_type):
   html =  f'<h1>List of {pet_type}</h1>'
   html+='<ul>'
   for pet in pets[pet_type]:
-    html+=f'<li>{pet['name']}</li>'
+    html+=f'<li>{pet["name"]}</li>'
   html+='</ul>'
   return html
